@@ -7,12 +7,6 @@ engineOrdererRecordLength = 24 //how many childs of root can the engine sort
 zobristRecordLength = 64 //how many board hashs can the game remembers
 beatLevelDelay = 5 * 60 //how many seconds the user waits until being able to beat the level
 
-let oldRequire = require
-require = (arg) => {
-	console.log(arg, "=>", global["unavailable_g"] ?? 0)
-	oldRequire(arg)
-}
-
 //initialize
 ;[
 	"@g-js-api/g.js",

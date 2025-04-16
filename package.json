@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@g-js-api/g.js": "^4.0.1"
+  }
+}
